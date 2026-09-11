@@ -1,8 +1,12 @@
-# AI-Powered Resume Screener & ATS
+﻿# AI-Powered Resume Screener & ATS
 
 An end-to-end AI-powered Applicant Tracking System (ATS) and Resume Screener application.
 
-## ?? Features
+🌐 **Live Demo Website:** [https://resume-screener-ats.vercel.app](https://resume-screener-ats.vercel.app)
+
+---
+
+## 🚀 Features
 
 - **Candidate Screening**: Intelligent resume parsing and ATS scoring matching candidate profiles against job requirements.
 - **NLP & Semantic Analysis**: Sentence-Transformers embeddings (ll-MiniLM-L6-v2) and keyword extraction for similarity matching.
@@ -12,27 +16,27 @@ An end-to-end AI-powered Applicant Tracking System (ATS) and Resume Screener app
 
 ---
 
-## ??? Project Structure
+## 🛠️ Project Structure
 
 `	ext
-+-- backend/
-�   +-- app/
-�   �   +-- core/          # Configuration & security
-�   �   +-- database/      # Database models & setup
-�   �   +-- models/        # SQLAlchemy ORM models
-�   �   +-- nlp/           # Resume parser, embeddings & scoring algorithms
-�   �   +-- routers/       # API endpoints (Auth, Jobs, Resumes, Screening)
-�   �   +-- schemas/       # Pydantic schemas
-�   +-- requirements.txt
-+-- frontend/
-    +-- src/               # React pages, components, context & layouts
-    +-- package.json
-    +-- vite.config.js
+├── backend/
+│   ├── app/
+│   │   ├── core/          # Configuration & security
+│   │   ├── database/      # Database models & setup
+│   │   ├── models/        # SQLAlchemy ORM models
+│   │   ├── nlp/           # Resume parser, embeddings & scoring algorithms
+│   │   ├── routers/       # API endpoints (Auth, Jobs, Resumes, Screening)
+│   │   └── schemas/       # Pydantic schemas
+│   └── requirements.txt
+└── frontend/
+    ├── src/               # React pages, components, context & layouts
+    ├── package.json
+    └── vite.config.js
 `
 
 ---
 
-## ?? Getting Started
+## 💻 Getting Started
 
 ### 1. Backend Setup
 
@@ -60,7 +64,12 @@ The React frontend application will start at http://localhost:5173.
 
 ---
 
-## ?? License
+## 🌐 Live Deployment
+
+- **Frontend & Backend (Vercel):** [https://resume-screener-ats.vercel.app](https://resume-screener-ats.vercel.app)
+
+---
+
+## 📜 License
 
 MIT License
-
