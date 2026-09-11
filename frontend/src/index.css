@@ -1,0 +1,30 @@
+/* @import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+@import "tailwindcss";
+
+/* 1. Define your custom brand colors */
+@theme {
+  --color-brand-50: #f0f9ff;
+  --color-brand-100: #e0f2fe;
+  --color-brand-500: #0ea5e9;
+  --color-brand-600: #0284c7;
+  --color-brand-700: #0369a1;
+  --color-brand-900: #0c4a6e;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+  
+  /* 2. Target buttons using the correct Tailwind v4 important syntax */
+  button, 
+  a[href="/jobs/create"] {
+    @apply !text-black;
+  }
+}
